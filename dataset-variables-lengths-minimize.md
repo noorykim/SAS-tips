@@ -29,6 +29,7 @@ Here is my macro for minimizing the lengths of variables:
 
     alter table &dataset
       modify &alterlen
+    ;
     
     drop table vars;
     drop table lens;
