@@ -2,7 +2,7 @@
 
 ## Programming Data Sets
 
-[Reorder the variables of a data set](reorder-dataset-variables.md)
+[Reorder the variables of a data set](dataset-variables-reorder.md)
 
 ## Programming Tables
 
