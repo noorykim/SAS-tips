@@ -13,7 +13,7 @@ A LENGTH statement is more tedious, as it also requires the inclusion of variabl
 If the variables are stored in a macro variable, then we can keep just those variables in the data set with a KEEP option or statement.
 ```
 data ds;
-  format &dsvars;
+  format &varnames;
   set ds (keep=&varnames);
 run;
 ```
