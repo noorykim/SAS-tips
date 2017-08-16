@@ -4,7 +4,7 @@ There are several options for reordering variables within a DATA step, including
 %let varnames = var1 var2 var3;
 
 data ds;
-  format &&varnames;
+  format &varnames;
   set ds;
 run;
 ```
