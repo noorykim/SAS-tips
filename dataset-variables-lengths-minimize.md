@@ -38,5 +38,9 @@ Here is my macro for minimizing the lengths of variables:
 %mend trimVarlength;
 ```
 
+
 Drafted 2017-07
+
 Posted 2017-08-16
+
+(c) Noory Kim
