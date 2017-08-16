@@ -4,6 +4,9 @@
 
 [Reorder the variables of a data set](dataset-variables-reorder.md)
 
+[Minimize the lengths of variables](dataset-variables-lengths-minimize.md)
+
+
 ## Programming Tables
 
 
