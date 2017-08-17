@@ -9,19 +9,19 @@ Here is my macro for minimizing the lengths of variables:
 %macro trimVarLength(dataset, libname=WORK);
 
   proc sql noprint;
-    /* retrieve the names of character variables, and form a column using the names */
+    /* retrieve the names of character variables, and form a column with syntax to find max lengths of those variables; vert */
     create table vars as
       select cats("max(length(", name, ")) as _", name) as cvar
       from dictionary.columns
       where type = 'char' and libname = upcase("&libname") and memname = upcase("&dataset")
     ;                                
 
-    /* concatenate the column values into a single string */
+    /* concatenate the column values into a single string; flat */
     select cvar into :cvars separated by ','
       from vars                                
     ;
 
-    /* get the maximum lengths of the character variables; */
+    /* get the maximum lengths of the character variables; vert */
     create table lens as
       select &cvars 
       from &dataset
