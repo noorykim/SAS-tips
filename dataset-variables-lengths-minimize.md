@@ -9,7 +9,8 @@ Here is my macro for minimizing the lengths of variables:
 %macro trimVarLength(dataset, libname=WORK);
 
   proc sql noprint;
-    /* retrieve the names of character variables, and form a column with syntax to find max lengths of those variables; vert */
+    /* retrieve the names of character variables, and 
+       form a column with syntax to find the max lengths of those variables; vert */
     create table vars as
       select cats("max(length(", name, ")) as _", name) as cvar
       from dictionary.columns
