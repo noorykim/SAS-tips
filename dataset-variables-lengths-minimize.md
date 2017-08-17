@@ -21,26 +21,30 @@ Here is my macro for minimizing the lengths of variables:
       from vars                                
     ;
 
-    /* get the maximum lengths of the character variables */
+    /* get the maximum lengths of the character variables; */
     create table lens as
       select &cvars 
       from &dataset
     ;                
   quit;
 
+  /*  */
   proc transpose data=lens out=tlens (rename=(_name_=name col1=len));
     var _:;
   run;
 
   proc sql noprint;
+    /* define the new length values */
     select cat(substr(name, 2), " char(", put(len, 3.), ")") into :alterlen separated by ', '
       from tlens
     ; 
 
+    /* replace the lengths with the  */
     alter table &dataset
       modify &alterlen
     ;
     
+    /* clear out temporary data sets */
     drop table vars;
     drop table lens;
     drop table tlens;                
