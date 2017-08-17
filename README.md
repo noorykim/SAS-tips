@@ -11,7 +11,7 @@
 
 ### Data values
 
-[Convert partial dates to ISO 8601 format](../sas-convert-partial-dates)
+[Convert partial dates to ISO 8601 format](https://noorykim.github.io/sas-convert-partial-dates)
 
 
 
