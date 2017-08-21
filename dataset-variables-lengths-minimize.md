@@ -1,3 +1,5 @@
+# Minimize the lengths of variables
+
 ## Pseudocode
 
 
@@ -57,6 +59,7 @@ Here is my macro for minimizing the lengths of variables:
 
 
 [SAS Tips](/sas-tips)
+
 [Portfolio](/)
 
 
