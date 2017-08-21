@@ -68,6 +68,7 @@ Usage example:
 ```
 data ae;
   ...
+  if AESTDTC >= RFSTDTC then TRTEMFL = "Y";
   label TRTEMFL = "Treatment Emergent Flag";
 run;
 
