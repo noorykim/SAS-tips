@@ -1,3 +1,5 @@
+# Reorder the variables in a data set
+
 There are several options for reordering variables within a DATA step, including LENGTH, RETAIN, and FORMAT. I find using a FORMAT statement before the SET statement is the simplest and cleanest method. It requires only an ordered list of the names of the variables.
 
 ```markdown
