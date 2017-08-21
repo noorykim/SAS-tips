@@ -20,7 +20,7 @@
 
 ## Programming Tables
 
-[Generating a shift table](sas-generate-shift-table)
+[Generate a shift table](sas-generate-shift-table)
 
 ##
 
