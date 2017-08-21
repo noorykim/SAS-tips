@@ -18,4 +18,11 @@ data ds;
 run;
 ```
 
+[SAS Tips](/sas-tips)
+
+[Portfolio](/)
+
+
 Posted 2017-08-16
+
+Lasted updated 2017-08-21
