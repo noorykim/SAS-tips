@@ -20,12 +20,11 @@
 
 ## Programming Tables
 
-[Generate a shift table](sas-generate-shift-table)
+[Generate a shift table](/sas-generate-shift-table)
+
 
 ##
 
 Last updated 2017-08-16
 
 Noory Kim
-
-Keywords: SAS CDISC SDTM 
