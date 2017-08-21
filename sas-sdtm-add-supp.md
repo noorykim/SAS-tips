@@ -83,3 +83,15 @@ proc copy in=SDTM out=xpt memtype=data;
   select SUPP&domain;
 run;
 ```
+
+[SAS Tips](/sas-tips)
+
+[Portfolio](/)
+
+
+Posted 2017-08-21
+
+Last updated 2017-08-21
+
+(c) Noory Kim
+
