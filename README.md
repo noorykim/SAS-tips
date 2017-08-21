@@ -11,8 +11,11 @@
 
 ### Data values
 
-[Convert partial dates to ISO 8601 format](/sas-d-v-convert-partial-dates)
+[Convert partial dates to ISO 8601 format](/sas-convert-partial-dates)
 
+### Miscellaneous
+
+[Add a SUPP-- data set (CDISC SDTM)](sas-sdtm-add-supp)
 
 
 ## Programming Tables
