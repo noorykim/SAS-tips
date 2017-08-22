@@ -1,6 +1,11 @@
 # Minimize the lengths of variables
 
 ## Pseudocode
+1. Retrieve the names of the character variables in the data set.
+2. Use names to construct PROC SQL syntax to find the minmax length needed for each variable. (e.g. "max(length(var1)) as var1")
+3. Concatenate the values from step (2) into a single string, separated by commas.
+4. Get the minmax lengths of the character variables.
+5. Replace the variable lengths with the results from step (4).
 
 
 ## Full code
