@@ -5,7 +5,7 @@ The SAS functions vname() and vlabel() help leverage SDTM value-level metadata f
 ```
 %macro add_supp(qnams, inlib=work, outlib=sdtm);
   /* author: Noory Kim
-     last updated: 2017-08-21
+     last updated: 2017-08-22
      expected input: 
      - qnams: list of variables with names to be saved as QNAM and labels to be saved as QLABEL 
      other assumptions:
@@ -94,7 +94,7 @@ run;
 
 Posted 2017-08-21
 
-Last updated 2017-08-21
+Last updated 2017-08-22
 
 (c) Noory Kim
 
