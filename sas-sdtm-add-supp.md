@@ -53,6 +53,8 @@ The SAS functions vname() and vlabel() help leverage SDTM value-level metadata f
     by usubjid idvarval qnam;             /* '10' goes after '1' */
   run;
 
+  %let suppvars = STUDYID RDOMAIN USUBJID IDVAR IDVARVAL QNAM QLABEL QVAL QORIG QEVAL;
+
   data &outset..SUPP&domain (label="Supplemental Qualifiers for &domain");
     format &suppvars;
     set supp;
