@@ -57,17 +57,19 @@ Here is my macro for minimizing the lengths of variables:
 ```
 
 
-###
 
-[SAS Tips](/sas-tips)
-
-[Portfolio](/)
-
-
-###
+#
 
 Posted 2017-08-16
 
 Updated 2017-08-17
 
 (c) Noory Kim
+
+
+#
+
+[SAS Tips](/sas-tips)
+
+[Portfolio](/)
+
