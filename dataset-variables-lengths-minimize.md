@@ -1,5 +1,7 @@
 # Minimize the lengths of variables
 
+Here is my macro for minimizing the lengths of variables:
+
 ## Pseudocode
 1. Retrieve the names of the character variables in the data set.
 2. Use names to construct PROC SQL syntax to find the minmax length needed for each variable. (e.g. "max(length(var1)) as var1")
@@ -9,8 +11,6 @@
 
 
 ## Full code
-
-Here is my macro for minimizing the lengths of variables:
 
 ```
 %macro trimVarLength(dataset, libname=WORK);
