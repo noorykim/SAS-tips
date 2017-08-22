@@ -12,7 +12,7 @@ Here is my macro for minimizing the lengths of variables:
 
   proc sql noprint;
     /* retrieve the names of character variables, and 
-       form a column with syntax to find the max lengths of those variables; vert */
+       form a column with syntax to find the max lengths of those variables; tall */
     create table vars as
       select cats("max(length(", name, ")) as _", name) as cvar
       from dictionary.columns
@@ -24,14 +24,14 @@ Here is my macro for minimizing the lengths of variables:
       from vars                                
     ;
 
-    /* get the maximum lengths of the character variables; vert */
+    /* get the maximum lengths of the character variables; flat */
     create table lens as
       select &cvars 
       from &dataset
     ;                
   quit;
 
-  /*  */
+  /* transpose; tall */
   proc transpose data=lens out=tlens (rename=(_name_=name col1=len));
     var _:;
   run;
@@ -42,7 +42,7 @@ Here is my macro for minimizing the lengths of variables:
       from tlens
     ; 
 
-    /* replace the lengths with the  */
+    /* replace the lengths */
     alter table &dataset
       modify &alterlen
     ;
