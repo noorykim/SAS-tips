@@ -67,7 +67,7 @@ Here is my macro for minimizing the lengths of variables:
 
 Posted 2017-08-16
 
-Updated 2017-08-17
+Updated 2017-08-22
 
 (c) Noory Kim
 
