@@ -83,7 +83,7 @@ proc print data=&syslast (obs=20);
 run;
 
 /* export the data set into an XPT file */
-libname xpt xport "..\..\..\..\Data\SDTM\SUPP&domain..xpt";
+libname xpt xport "..\..\Data\SDTM\SUPP&domain..xpt";
 proc copy in=SDTM out=xpt memtype=data;
   select SUPP&domain;
 run;
@@ -95,9 +95,6 @@ run;
 Posted 2017-08-21
 
 Last updated 2017-08-22
-
-(c) Noory Kim
-
 
 #
 
