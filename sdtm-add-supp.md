@@ -47,7 +47,4 @@ run;
 ```
 
 #
-Last updated 2017-12-11
-
 [Portfolio](/)
-
