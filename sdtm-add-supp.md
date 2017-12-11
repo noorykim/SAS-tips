@@ -51,8 +51,6 @@ run;
 
 Last updated 2017-12-11
 
-#
-
 [SAS Tips](/sas-tips)
 
 [Portfolio](/)
