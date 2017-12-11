@@ -13,7 +13,8 @@ Macro parameters:
   /* parameters: 
      - qnams: list of variables with names to be saved as QNAM 
               and labels to be saved as QLABEL 
-     - inlib: libname of the input data set which has the variables listed in 'qnams'
+     - inlib: libname of the input data set 
+              w/ the variables listed in 'qnams'
      - outlib: libname of output data set
      
      other assumptions:
