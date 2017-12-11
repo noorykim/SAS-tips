@@ -11,7 +11,11 @@ Macro parameters:
 ```
 %add_supp(qnams, inlib=work, outlib=sdtm);
   /* parameters: 
-     - qnams: list of variables with names to be saved as QNAM and labels to be saved as QLABEL 
+     - qnams: list of variables with names to be saved as QNAM 
+              and labels to be saved as QLABEL 
+     - inlib: libname of input data set
+     - outlib: libname of output data set
+     
      other assumptions:
      - &outlib refers to an existing libname/library
      - &domain is already defined as an uppercase string (of length 2)
