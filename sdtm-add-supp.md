@@ -1,6 +1,6 @@
 # Add a SUPP-- (supplementary) data set for an SDTM domain
 
-This macro facilitates the generation of a SUPP-- data set to accompany a SDTM data set that has already been programmed. 
+This macro facilitates the generation of a SUPP-- data set to accompany an SDTM data set that has already been programmed. 
 
 It is assumed that values to be captured by the SUPP-- data set have been stored in variables named and labeled with the values to be stored in QNAM and QLABEL respectively.  The macro uses the SAS functions vname() and vlabel() to extract this information when populating the SUPP-- (supplementary) data sets.
 
