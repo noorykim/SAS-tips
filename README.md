@@ -1,6 +1,5 @@
 # SAS
 
-
 ## Programming Data Sets
 
 ### Metadata
@@ -15,7 +14,7 @@
 
 ### Miscellaneous
 
-[Add a SUPP-- data set (CDISC SDTM)](sas-sdtm-add-supp)
+[Add a SUPP-- data set (CDISC SDTM)](sdtm-add-supp)
 
 
 ## Programming Tables
@@ -23,13 +22,8 @@
 [Generate a shift table](/sas-generate-shift-table)
 
 
-
 #
 
-Last updated 2017-08-22
-
-Noory Kim
-
-#
+Last updated 2017-12-11
 
 [Portfolio](/)
