@@ -3,7 +3,9 @@
      last updated: 2017-12-11
      
      expected input / parameters: 
-     - qnams: list of variables with names to be saved as QNAM and labels to be saved as QLABEL 
+     - qnams: list of variables with names to be saved as QNAM 
+              and labels to be saved as QLABEL 
+              
      other assumptions:
      - &outlib refers to an existing libname/library
      - &domain is already defined as an uppercase string (of length 2)
@@ -56,5 +58,5 @@
     set supp;
     keep &suppvars;
   run;
-
+  
 %mend add_supp;
