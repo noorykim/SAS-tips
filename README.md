@@ -1,4 +1,4 @@
-# SAS Tips
+# SAS
 
 
 ## Programming Data Sets
