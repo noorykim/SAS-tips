@@ -24,7 +24,7 @@ SDTM datasets submitted to the FDA are expected to have variable lengths equal t
 
 [Sandra VanPelt Nguyen](http://www.lexjansen.com/pharmasug/2014/CC/PharmaSUG-2014-CC37.pdf)
 
-#
+# .
 Updated 2017-12-11
 
 [Portfolio](/)
