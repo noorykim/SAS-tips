@@ -1,4 +1,7 @@
 %macro trimVarLength(dataset, libname=WORK);
+  /* author: Noory Kim
+     last updated: 2017-12-11
+  */
 
   proc sql noprint;
     /* retrieve the names of character variables, and 
