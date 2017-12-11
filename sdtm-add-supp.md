@@ -4,10 +4,10 @@ This macro facilitates the generation of a SUPP-- data set to accompany an SDTM 
 
 It is assumed that values to be captured by the SUPP-- data set have been stored in variables named and labeled with the values to be stored in QNAM and QLABEL respectively.  The macro uses the SAS functions vname() and vlabel() to extract this information when populating the SUPP-- (supplementary) data sets.
 
-## Macro download
+## Macro
 [sdtm-add-supp.sas](sdtm-add-supp.sas)
 
-## Macro parameters
+## Parameters
 ```
 %add_supp(qnams, inlib=work, outlib=sdtm);
   /* parameters: 
