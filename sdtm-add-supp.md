@@ -3,11 +3,11 @@
 The SAS functions vname() and vlabel() help leverage SDTM value-level metadata for populating QNAM and QLABEL in SUPP-- (supplementary) data sets.
 
 
-Macro download:
+## Macro download
 [sdtm-add-supp.sas](sdtm-add-supp.sas)
 
 
-Macro parameters:
+## Macro parameters
 ```
 %add_supp(qnams, inlib=work, outlib=sdtm);
   /* parameters: 
@@ -23,8 +23,7 @@ Macro parameters:
   */
 ```
 
-
-Usage example:
+## Usage example
 ```
 data ae;
   ...
