@@ -1,10 +1,8 @@
 # Minimize the lengths of variables
 
-SDTM datasets submitted to the FDA are expected to have variable lengths equal to the length of the longest value (up to 200 characters). 
+SDTM datasets submitted to the FDA are expected to have variable lengths equal to the length of the longest value (up to 200 characters).  This macro minimizes the lengths of the variables in a data set.
 
-Here is a macro for minimizing the lengths of variables:
-
-## Macro download: 
+## Macro Download
 [dataset-variables-lengths-minimize.sas](dataset-variables-lengths-minimize.sas)
 
 ## Pseudocode
@@ -14,15 +12,12 @@ Here is a macro for minimizing the lengths of variables:
 4. Get the minmax lengths of the character variables.
 5. Replace the variable lengths with the results from step (4).
 
-## Macro Parameters
+## Parameters
 ```
 %trimVarLength(dataset, libname=WORK);
 ```
 
-
 #
-
 Updated 2017-12-11
 
 [Portfolio](/)
-
