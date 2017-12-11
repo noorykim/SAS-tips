@@ -1,7 +1,8 @@
 %macro add_supp(qnams, inlib=work, outlib=sdtm);
   /* author: Noory Kim
      last updated: 2017-12-11
-     expected input: 
+     
+     expected input / parameters: 
      - qnams: list of variables with names to be saved as QNAM and labels to be saved as QLABEL 
      other assumptions:
      - &outlib refers to an existing libname/library
