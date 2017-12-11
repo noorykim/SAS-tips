@@ -5,7 +5,9 @@
      expected input / parameters: 
      - qnams: list of variables with names to be saved as QNAM 
               and labels to be saved as QLABEL 
-              
+     - inlib: libname of the input data set which has the variables listed in 'qnams'
+     - outlib: libname of output data set
+     
      other assumptions:
      - &outlib refers to an existing libname/library
      - &domain is already defined as an uppercase string (of length 2)
