@@ -1,11 +1,11 @@
 # Add a SUPP-- (supplementary) data set for an SDTM domain
 
-The SAS functions vname() and vlabel() help leverage SDTM value-level metadata for populating QNAM and QLABEL in SUPP-- (supplementary) data sets.
+This macro facilitates the generation of a SUPP-- data set to accompany a SDTM data set that has already been programmed. 
 
+It is assumed that values to be captured by the SUPP-- data set have been stored in variables named and labeled with the values to be stored in QNAM and QLABEL respectively.  The macro uses the SAS functions vname() and vlabel() to extract this information when populating the SUPP-- (supplementary) data sets.
 
 ## Macro download
 [sdtm-add-supp.sas](sdtm-add-supp.sas)
-
 
 ## Macro parameters
 ```
@@ -46,9 +46,7 @@ proc copy in=SDTM out=xpt memtype=data;
 run;
 ```
 
-
 #
-
 Last updated 2017-12-11
 
 [Portfolio](/)
