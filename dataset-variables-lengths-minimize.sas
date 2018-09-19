@@ -47,3 +47,27 @@
   quit;
 
 %mend trimVarlength;
+
+
+%macro trimAll(libname=WORK);
+
+  proc sql noprint;
+    select memname into :tables separated by " "
+      from dictionary.tables
+      where libname = upcase("&libname") 
+      order by memname
+    ;                                
+    select count(*) into :ntables
+      from dictionary.tables
+      where libname = upcase("&libname") 
+    ;
+  quit;
+
+  %do j = 1 %to &ntables;
+    %let ds = %scan(&tables, &j);
+    %trimVarlength(&ds, libname=&libname);
+  %end;
+
+%mend trimAll;
+
+/* %trimAll; */
