@@ -20,7 +20,7 @@
     /* get the maximum lengths of the character variables; flat */
     create table lens as
       select &cvars 
-      from &dataset
+      from &libname..&dataset
     ;                
   quit;
 
@@ -36,7 +36,7 @@
     ; 
 
     /* replace the lengths */
-    alter table &dataset
+    alter table &libname..&dataset
       modify &alterlen
     ;
     
